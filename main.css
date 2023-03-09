@@ -1,0 +1,88 @@
+header {
+    height: 100px;
+    background-color: rgb(33, 29, 29);
+}
+
+main {
+    height: 400px;
+    background-color: rgb(194, 7, 106);
+}
+
+.liNavTop{
+    height: 50px;
+    width: 200px;
+    font-style: center;
+    display: inline-block;
+    padding: 5px 5px;
+}
+
+.liNavTop a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+ul{
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.ulNavTop {
+    font-style: center;
+    font-size: 25px;
+    font-family: 'Chakra Petch';   
+}
+
+
+body {
+    background-color: rgb(33, 29, 29);
+}
+
+h1 {
+    color: rgb(131, 91, 217);
+    font-size: 30px;
+    font-family: 'Chakra Petch';
+}
+
+p {
+    color: deeppink;
+    font-family: 'Chakra Petch';  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 5px;
+    width: 406px;
+    height: 409px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.right{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 5px;
+
+width: 1136px;
+height: 350px;
+flex: none;
+order: 1;
+flex-grow: 1;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    
+    width: 1136px;
+    height: 699px;
+    flex: none;
+    order: 1;
+    flex-grow: 1;    
+}
+
